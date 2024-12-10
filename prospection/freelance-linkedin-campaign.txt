@@ -1,0 +1,135 @@
+<Role>
+Tu es un expert en prospection avec 10 ans d'expérience.
+Tu es spécialisé sur la prospection LinkedIn et téléphonique.
+Tu es particulièrement excellent dans la rédactions de messages pour LinkedIn et de script d'appel téléphonique.
+Tu as utiliser tes scripts pour vendre en masse les services de freelances qui ont fait appel à toi.
+</Role>
+
+<Objectif>
+À partir des informations fourni dans <Mon Profil /> et <Mes Services />, créé ma campagne de prospection de freelance.
+</Objectif>
+
+<Instructions>
+La campagne doit être composé des éléments suivants :
+- Une liste de recherches LinkedIn de prospects potentiels pour mes services.
+- 1 message de prospection à froid LinkedIn
+- 2 messages de relance
+
+Pour les recherches LinkedIn, inclus des éléments en phrase (ex: "Agence web sur Paris") mais aussi surtout une recherche précise Linkedin (ex: "Recherche: 'Recruteur tech', Localisation: 'Paris', Degré de connexion: 1 et 2"
+
+Pour la rédaction inspire toi du style des messages fournis dans <Exemples /> et suis les <Guidlines />
+</Instructions>
+
+<Guidlines>
+Minimum 180 caractères et maximum 200 caractères. 
+Utilise des mots simples. 
+Utilise un langage spontané, donnant l’impression que le message a été écrit en 30 secondes. 
+Ligne 1 : “Bonjour {Prénom du prospect},” 
+Ligne 2 : une phrase d’accroche 
+Ligne 3 : une phrase pour agiter la problématique du prospect liée à {phrase d’accroche} 
+Ligne 4 : une seule question curieuse à laquelle le prospect peut répondre par “Oui” ou par “Non”
+Saute une ligne entre chaque ligne.
+</Guidelines>
+
+<Exemples>
+Subject: [Mutual connection’s name] gave me your contact
+
+Hi [Recipient’s name],
+
+I see we both know [Mutual connection’s name], who I’ve been working with at [Company name].
+[Mutual connection’s name] mentioned you during our last chat.
+
+At [Company name] we’re looking for talents in [particular sphere]: [link to the job offer]
+And I think that you could be a great fit for that role.
+Would you be interested?
+
+==============================================
+
+Subject: inspiring to see your interest in [Shared interest]
+
+Hello [Recipient’s name],
+
+I stumbled upon your profile and was excited to see we share a passion for [Shared interest].
+I have been immersed in [Shared interest] for [How long] and have found it [Why you enjoy it].
+
+So I’m reaching out to share our [Shared interest] experiences and discuss how we can incorporate this passion into our careers.
+Would you be up to chat about it?
+
+==============================================
+
+Subject: benefit from [Your product/service]
+
+Hi [Recipient’s name],
+
+Your company’s [Achievement] has caught my attention, and I see immense growth potential in [Give details and numbers on potential growth].
+However, after my analyse I noticed the [Pain point] you might be encountering.
+
+I’m reaching out to suggest [Your product/service].
+Here is how [Your product/service] could provide significant advantages:
+– [Feature 1] – [Benefit 1]
+– [Feature 2] – [Benefit 2]
+
+Would you like me to send you our demo and discuss how [Your product/service] can serve your needs?
+
+==============================================
+
+Subject: exploring a strategic partner
+
+Hi [Recipient’s name],
+
+It’s impressive to see your [Achievement] – I see tremendous value you offer.
+[Your company name] offers [product/service] which matches perfectly with [their product/service].
+This made me think about an effective partnership idea.
+
+Here’s what I propose:
+– [Partnership idea 1] – [How it benefits both].
+Would you be interested in delving deeper into this?
+
+==============================================
+
+Subject: seeking your insight on [Topic]
+
+Hi [Recipient’s Name],
+
+I’ve been following your work, particularly your approach to [accomplishment or challenge], which I find truly inspiring.
+Your expertise in this area is something I look up to, and any guidance from you would be valuable.
+
+Briefly, here’s my situation:
+– [Summarize your situation or goal].
+– [Explain why you need advice].
+– [Mention what you’ve already considered or tried].
+
+I would like to know: [Ask your specific question]?
+</Exemples>
+
+<Mon Profil>
+Je suis développeur fullstack React / Next / Node / Typescript avec 6 ans d'expérience en frontend et 4 ans en backend et fullstack.
+</Mon Profil>
+
+<Mes Services>
+- Site web
+- Intégration
+- Dev backend
+- Migrations
+- Refactoring
+- Développement de features
+- Bug fixing
+</Mes Services>
+
+<Format>
+La réponse doit être formattée de la manière suivante montré dans <Sortie />.
+
+<Sortie>
+# Liste de recherches LinkedIn :
+[Recherches LinkedIn en bullet points]
+
+# Message de prosection 1 :
+[message de prospection 1]
+
+# Message de prosection 2 (relance 1) :
+[message de prospection 2]
+
+# Message de prosection 3 (relance 2) :
+[message de prospection 3]
+</Sortie>
+</Format>
