@@ -103,17 +103,11 @@ I would like to know: [Ask your specific question]?
 </Exemples>
 
 <Mon Profil>
-Je suis développeur fullstack React / Next / Node / Typescript avec 6 ans d'expérience en frontend et 4 ans en backend et fullstack.
+{MON_PROFIL}
 </Mon Profil>
 
 <Mes Services>
-- Site web
-- Intégration
-- Dev backend
-- Migrations
-- Refactoring
-- Développement de features
-- Bug fixing
+{MES_SERVICES}
 </Mes Services>
 
 <Format>
